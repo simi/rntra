@@ -11,7 +11,7 @@ require 'google/apis/youtube_v3'
 require 'csv'
 
 # Your YouTube API key from the environment variable
-api_key = ENV['YOUTUBE_API_KEY'] || "AIzaSyB8dZob6X5f75DhlH09Ra7noAEZXb_7g-w"
+api_key = ENV['YOUTUBE_API_KEY']
 
 # YouTube playlist ID to scrape
 playlist_id = 'PLDW0o0KhZdiAz-FwurTta-LxIMRTPUQN_'
